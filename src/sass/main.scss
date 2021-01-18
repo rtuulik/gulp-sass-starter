@@ -1,0 +1,63 @@
+// 1. Configuration and helpers
+// Gathers all Sass tools and helpers used across the project
+// utilities contains no actual styles, just Sass mechanisms
+@import
+  'utilities/variables',	// Sass variables
+  'utilities/mixins',
+  'utilities/functions';
+
+
+// 2. Vendors
+@import
+'vendors/normalize';	// CSS Reset/normalize
+// 2.5 Vendors overwrite
+// Have files named exactly after the vendors they overwrite.
+// Avoid editing the vendor files themselves, which is generally not a good idea.
+// @import
+//	'vendors-overwrite/_bootstrap.scss';	// Ex. file containing all CSS rules intended to re-declare some of Bootstrap’s default CSS
+
+
+// 3. Base stuff
+// boilerplate code for the project, used throughout an entire site
+@import
+	'base/fonts',		// Define fonts
+	'base/typography',	// Typography rules
+	'base/animations',	// Animation rules
+	'base/spacing';
+
+
+// 4. Layout-related sections
+@import
+	'layout/grid',
+	'layout/header',
+	'layout/footer',
+	'layout/navigation';
+
+	
+// 5. Components
+@import
+	'components/button';
+//	'components/card',
+//	'components/carousel',
+//	'components/dropdown',
+//	'components/forms';
+	
+
+// 6. Page-specific styles
+@import
+	'pages/home',		// Home specific styles
+	'pages/login';
+//	'pages/contact',
+//	'pages/about',
+
+
+// 7. Themes, if you are using any
+//@import
+//	'themes/default',	// Default theme
+//	'themes/admin',		// Admin theme
+//	'themes/dark',		// Dark mode
+//	'themes/mint';		// Mint theme
+
+
+// shame.js
+@import	'_shame.scss';

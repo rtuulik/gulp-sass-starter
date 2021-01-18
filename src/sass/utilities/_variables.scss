@@ -1,0 +1,13 @@
+$spacer: 1rem;
+
+$breakpoints: (
+	"phone": (
+		min-width: 800px,
+	),
+	"tablet": (
+		min-width: 1000px,
+	),
+	"desktop": (
+		min-width: 1200px,
+	),
+);
