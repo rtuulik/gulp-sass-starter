@@ -3,187 +3,223 @@
 	margin-left: auto;
 }
 .m-0 {
-	margin: 0;
+	margin: $spacers-0;
 }
 .m-1 {
-	margin: ($spacer * 0.25);
+	margin: $spacers-1;
 }
 .m-2 {
-	margin: ($spacer * 0.5);
+	margin: $spacers-2;
 }
 .m-3 {
 	margin: $spacer;
 }
 .m-4 {
-	margin: ($spacer * 2);
+	margin: $spacers-4;
 }
 .m-5 {
-	margin: ($spacer * 3);
+	margin: $spacers-5;
+}
+
+.mx-0 {
+	margin-right: $spacers-0;
+	margin-left: $spacers-0;
+}
+
+.mx-1 {
+	margin-right: $spacers-1;
+	margin-left: $spacers-1;
+}
+
+.mx-2 {
+	margin-right: $spacers-2;
+	margin-left: $spacers-2;
+}
+
+.mx-3 {
+	margin-right: ($spacer * 1);
+	margin-left: ($spacer * 1);
+}
+
+.mx-4 {
+	margin-right: ($spacer * 1.5);
+	margin-left: ($spacer * 1.5);
+}
+
+.mx-5 {
+	margin-right: $spacers-5;
+	margin-left: $spacers-5;
+}
+
+.mx-auto {
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .mt-0 {
-	margin-top: 0;
+	margin-top: $spacers-0;
 }
 .mt-1 {
-	margin-top: ($spacer * 0.25);
+	margin-top: $spacers-1;
 }
 .mt-2 {
-	margin-top: ($spacer * 0.5);
+	margin-top: $spacers-2;
 }
 .mt-3 {
 	margin-top: $spacer;
 }
 .mt-4 {
-	margin-top: ($spacer * 2);
+	margin-top: $spacers-4;
 }
 .mt-5 {
-	margin-top: ($spacer * 3);
+	margin-top: $spacers-5;
 }
 
 .mr-0 {
-	margin-right: 0;
+	margin-right: $spacers-0;
 }
 .mr-1 {
-	margin-right: ($spacer * 0.25);
+	margin-right: $spacers-1;
 }
 .mr-2 {
-	margin-right: ($spacer * 0.5);
+	margin-right: $spacers-2;
 }
 .mr-3 {
 	margin-right: $spacer;
 }
 .mr-4 {
-	margin-right: ($spacer * 2);
+	margin-right: $spacers-4;
 }
 .mr-5 {
-	margin-right: ($spacer * 3);
+	margin-right: $spacers-5;
 }
 
 .mb-0 {
-	margin-bottom: 0;
+	margin-bottom: $spacers-0;
 }
 .mb-1 {
-	margin-bottom: ($spacer * 0.25);
+	margin-bottom: $spacers-1;
 }
 .mb-2 {
-	margin-bottom: ($spacer * 0.5);
+	margin-bottom: $spacers-2;
 }
 .mb-3 {
 	margin-bottom: $spacer;
 }
 .mb-4 {
-	margin-bottom: ($spacer * 2);
+	margin-bottom: $spacers-4;
 }
 .mb-5 {
-	margin-bottom: ($spacer * 3);
+	margin-bottom: $spacers-5;
 }
 
 .ml-0 {
-	margin-left: 0;
+	margin-left: $spacers-0;
 }
 .ml-1 {
-	margin-left: ($spacer * 0.25);
+	margin-left: $spacers-1;
 }
 .ml-2 {
-	margin-left: ($spacer * 0.5);
+	margin-left: $spacers-2;
 }
 .ml-3 {
 	margin-left: $spacer;
 }
 .ml-4 {
-	margin-left: ($spacer * 2);
+	margin-left: $spacers-4;
 }
 .ml-5 {
-	margin-left: ($spacer * 3);
+	margin-left: $spacers-5;
 }
 
 .p-0 {
-	margin: 0;
+	margin: $spacers-0;
 }
 .p-1 {
-	margin: ($spacer * 0.25);
+	margin: $spacers-1;
 }
 .p-2 {
-	margin: ($spacer * 0.5);
+	margin: $spacers-2;
 }
 .p-3 {
 	margin: $spacer;
 }
 .p-4 {
-	margin: ($spacer * 2);
+	margin: $spacers-4;
 }
 .p-5 {
-	margin: ($spacer * 3);
+	margin: $spacers-5;
 }
+
 .pt-0 {
-	padding-top: 0;
+	padding-top: $spacers-0;
 }
 .pt-1 {
-	padding-top: ($spacer * 0.25);
+	padding-top: $spacers-1;
 }
 .pt-2 {
-	padding-top: ($spacer * 0.5);
+	padding-top: $spacers-2;
 }
 .pt-3 {
 	padding-top: $spacer;
 }
 .pt-4 {
-	padding-top: ($spacer * 2);
+	padding-top: $spacers-4;
 }
 .pt-5 {
-	padding-top: ($spacer * 3);
+	padding-top: $spacers-5;
 }
 .pr-0 {
-	padding-right: 0;
+	padding-right: $spacers-0;
 }
 .pr-1 {
-	padding-right: ($spacer * 0.25);
+	padding-right: $spacers-1;
 }
 .pr-2 {
-	padding-right: ($spacer * 0.5);
+	padding-right: $spacers-2;
 }
 .pr-3 {
 	padding-right: $spacer;
 }
 .pr-4 {
-	padding-right: ($spacer * 2);
+	padding-right: $spacers-4;
 }
 .pr-5 {
-	padding-right: ($spacer * 3);
+	padding-right: $spacers-5;
 }
 .pb-0 {
-	padding-bottom: 0;
+	padding-bottom: $spacers-0;
 }
 .pb-1 {
-	padding-bottom: ($spacer * 0.25);
+	padding-bottom: $spacers-1;
 }
 .pb-2 {
-	padding-bottom: ($spacer * 0.5);
+	padding-bottom: $spacers-2;
 }
 .pb-3 {
 	padding-bottom: $spacer;
 }
 .pb-4 {
-	padding-bottom: ($spacer * 2);
+	padding-bottom: $spacers-4;
 }
 .pb-5 {
-	padding-bottom: ($spacer * 3);
+	padding-bottom: $spacers-5;
 }
 .pl-0 {
-	padding-left: 0;
+	padding-left: $spacers-0;
 }
 .pl-1 {
-	padding-left: ($spacer * 0.25);
+	padding-left: $spacers-1;
 }
 .pl-2 {
-	padding-left: ($spacer * 0.5);
+	padding-left: $spacers-2;
 }
 .pl-3 {
 	padding-left: $spacer;
 }
 .pl-4 {
-	padding-left: ($spacer * 2);
+	padding-left: $spacers-4;
 }
 .pl-5 {
-	padding-left: ($spacer * 3);
+	padding-left: $spacers-5;
 }

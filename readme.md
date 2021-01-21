@@ -1,9 +1,3 @@
-# gulp-sass-starter
-
-Small @gulpjs and @sass starter for quickstarting small projects
-
-# Getting Started
-
 ## Setting up the project
 
 **1. If you haven’t done already, initialize npm.**

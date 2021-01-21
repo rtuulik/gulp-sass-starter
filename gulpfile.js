@@ -1,5 +1,4 @@
 const { src, dest, watch, series, parallel, lastRun } = require("gulp"); // Importing specific gulp API functions lets us write them below as series() instead of gulp.series() and gulp.tasks
-
 const sass = require("gulp-dart-sass"); //  compiles SCSS to CSS
 const postcss = require("gulp-postcss"); // runs autoprefixer and cssnano
 const dependents = require("gulp-dependents");
@@ -72,7 +71,6 @@ exports.compileCSS = compileCSS;
 exports.compileJS = compileJS;
 exports.watchCSS = watchCSS;
 exports.watchJS = watchJS;
-
 // default task is a task that is executed if no task name is specified with Gulp CLI. It runs series tasks in sequential order and parrallel tasks sequentially
 // prettier-ignore
 exports.default = series(

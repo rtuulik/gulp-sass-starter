@@ -2,14 +2,15 @@
 // Gathers all Sass tools and helpers used across the project
 // utilities contains no actual styles, just Sass mechanisms
 @import
-  'utilities/variables',	// Sass variables
-  'utilities/mixins',
-  'utilities/functions';
+	'utilities/variables',	// Sass variables
+  	'utilities/mixins',
+  	'utilities/functions';
 
 
 // 2. Vendors
 @import
-'vendors/normalize';	// CSS Reset/normalize
+	'vendors/reboot';	// CSS Reset
+//	'vendors/bootstrap-grid';
 // 2.5 Vendors overwrite
 // Have files named exactly after the vendors they overwrite.
 // Avoid editing the vendor files themselves, which is generally not a good idea.
